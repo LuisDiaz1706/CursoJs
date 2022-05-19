@@ -104,12 +104,85 @@ console.log(numeros[0]+numeros[5]);
 
 console.log(`la palabra "${palabras[3]}" tiene ${palabras[3].length}letras`);
 
-console.log(numeros);
+//console.log(numeros);
 
 //array 
 
 //  console.log(numeros)
 // let arrayString = numeros.join("")
 //  console.log(numeros.join('-'));
+
+
+//console.log(numeros);
+// numeros.splice(3)
+//numeros.slice(2,2);
+//numeros.splice(2,2,10,54);
+//numeros.splice(2,0,10,54);
+
+
+// let newnumbers= numeros.slice();
+// console.log(numeros);
+// console.log(newnumbers);
+
+// let newnumbers= numeros.slice(2);
+// console.log(numeros);
+// console.log(newnumbers);
+
+let newnumbers= numeros.slice(2,4);
+console.log(numeros);
+console.log(newnumbers);
+
+
+//Bucles 
+
+//Bucle while 
+let pass = "";
+
+// while(pass != "hola"){
+//         pass=prompt("introdusca la password")
+// }
+// console.log("fin")
+//Bucle do while
+
+// do{
+//     pass=prompt("introdusca la password");
+// }while(pass != "hola")
+
+//For 
+
+for(let i =0;i<=10;i++){
+    console.log(i);
+}
+
+
+for(let i =10;i>=0;i--){
+    if(i!=5){
+        console.log(i)
+    }
+}
+
+
+let numbers1 = [0,56,28,31,49,95,86];
+
+for(let i =0;i<numbers1.length;i++){
+    console.log(`i vale ${i} y el valor en esa poscion en el array es ${numbers1[i]}`);
+}
+
+//for of 
+
+let nombres = ["paco","pedro","jose"]
+
+for(let names of nombres){
+    console.log(names)
+    //console.log(names.indexOf(nombres))
+}
+
+
+
+//for in
+
+for(let index in nombres){
+    console.log(index);
+}
 
 
